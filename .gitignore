@@ -1,0 +1,18 @@
+# Mac System Files
+.DS_Store
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Virtual Environments (if you ever use them)
+venv/
+env/
+
+# User Settings
+.vscode/
+
+# We DO want to upload the CSV to show sample data, 
+# but usually, we ignore large data files. 
+# For this project, you can keep it or ignore it:
+# general_cryptocurrency.csv
