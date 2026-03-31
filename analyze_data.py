@@ -8,7 +8,7 @@ file_path = Path(__file__).parent / "general_cryptocurrency.csv"
 # Check if file exists first
 if not file_path.exists():
     print(f"❌ Error: Could not find {file_path.name}")
-    print("Make sure you run general_tracker.py first!")
+    print("Make sure you run crypto_bot.py first!")
     exit()
 
 print(f"📂 Loading data from: {file_path.name}...")
